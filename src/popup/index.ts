@@ -9,16 +9,13 @@ render(
         --background-rgb: 18, 18, 18;
         --text-rgb: 255, 255, 255;
       }
-      :root {
-        overflow: auto;
-      }
       body,
       app-root {
         box-sizing: border-box;
         width: 20rem;
         height: 30rem;
         margin: 0;
-        overflow: auto;
+        overflow: hidden;
         font-family: spotify-circular, Helvetica Neue, Helvetica, Arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic,
           sans-serif;
         font-size: 16px;
